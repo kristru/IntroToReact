@@ -14,21 +14,13 @@
         render(){
           return (
             <div>
-              <h1>Hello World!</h1>
-<<<<<<< HEAD
-=======
+              <h1>Hello {this.props.name}!</h1>
               <Intro />
->>>>>>> assign3-components
             </div>
           );
         }
       }
 
-<<<<<<< HEAD
-      ReactDOM.render(
-        <Greeting />, document.getElementById('app')
-      );
-=======
       class Intro extends React.Component {
         render(){
           return <p>Welcome to React.</p>;
@@ -36,10 +28,9 @@
       }
 
       ReactDOM.render(
-        <Greeting />, document.getElementById('app')
+        <Greeting name="Bloc Student"/>, document.getElementById('app')
       );
 
->>>>>>> assign3-components
      </script>
   </body>
 
